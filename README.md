@@ -8,7 +8,7 @@ This repository majorly features a CUDA Implementation of several Image Reconstr
 
 ## Content Overview
 ### CUDAImpls
-In this folder there are two files: FISTA.cu and ADMM.cu. 
+In this folder there are two files: FISTA.cu and ADMM.cu.
 
 FISTA.cu contains all algorithms except ADMM. In FISTA.cu, ista() and fista() are 1-D vector reconstruction, and functions with name like **run_xxx_image()** is the 2-D image reconstruction. The parameters used in the algorithm could be set at the top, which are defined as constants.
 
@@ -18,6 +18,10 @@ You can customize the image and psf used by digging into the functions and find 
 
 ## PythonImpls
 In this folder there are python implementations of above algorithms. The structure is similar to above.
+
+## PythonCUDA
+Folder expresses some of the trials with Python-CUDA compliant software. ADMM-based Reconstructioni
+ADMM update steps is based on the work done by the Waller Lab for 3D construction.
 
 ## Requirements
 ### Compiler
